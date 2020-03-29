@@ -6,5 +6,5 @@ The main features are:
 - smooth animation.
 
 <a href="https://codepen.io/jwojsz/full/JjdwdXw" target="_blank">
-  <img src="https://raw.githubusercontent.com/jwojsz/JS-Analog-Clock/master/clock.png">
+  <img src="https://raw.githubusercontent.com/jwojsz/JS-Analog-Clock/master/clock.JPG">
   </a>
