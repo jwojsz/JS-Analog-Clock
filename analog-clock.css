@@ -1,18 +1,15 @@
-*
-{
+* {
   margin: 0px;
   padding: 0px;
 }
-body
-{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #475660;
 }
-.clock
-{
+.clock {
   width: 350px;
   height: 350px;
   display: flex;
@@ -22,8 +19,7 @@ body
   background-size: cover;
   border-radius: 50%;
 }
-.clock::before
-{
+.clock::before {
   content: '';
   position: absolute;
   width: 20px;
@@ -32,59 +28,49 @@ body
   border-radius: 50%;
   z-index: 100000;
 }
-.hour, .min, .sec
-{
+.hour, .min, .sec {
   position: absolute;
 }
-.hour, .hr
-{
+.hour, .hr {
   width: 160px;
   height: 160px;
 }
-.min, .mn
-{
+.min, .mn {
   width: 190px;
   height: 190px;
 }
-.sec, .sc
-{
+.sec, .sc {
   width: 220px;
   height: 220px;
 }
-.hr, .mn, .sc
-{
+.hr, .mn, .sc {
   display: flex;
   justify-content: center;
   position: absolute;
   border-radius: 50%;
 }
-.hr::before, .mn::before, .sc::before
-{
+.hr::before, .mn::before, .sc::before {
   content: '';
   position: absolute;
 }
-.hr::before
-{
+.hr::before {
   width: 10px;
   height: 80px;
   background: #000;
   z-index: 10;
 }
-.mn::before
-{
+.mn::before {
   width: 5px;
   height: 90px;
   background: #222D34;
   z-index: 11;
 }
-.sc::before
-{
+.sc::before {
   width: 3px;
   height: 100px;
   background: #F23A0C;
   z-index: 12;
 }
-#hr, #mn, #sc
-{
+#hr, #mn, #sc {
   transition: transform .5s ease-in-out;
 }
